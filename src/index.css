@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html,body{
+  height:100%;
+}
+.carousel,.item,.active{
+  height:100%;
+}
+.carousel-inner{
+  height:100%;
+}
+
+/* FEATURES */
+#features{
+  padding: 150px 0;
+  position: relative;
+  background-color: #fff;
+}
+
+.feature-icon{
+  color: #344;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.feature-icon:hover{
+  color: #111;
+}
+
+.feature-row{
+  font-family: "Montserrat";
+  color: #5f6769;
+  margin: 150px auto;
+}
+
+/*ABOUT*/
+
+#about{
+  padding: 30px 0;
+  position: relative;
+  background-color: #222;
+  color: #fff;
+}
+
+.contact-card{
+  width: 860px;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+  margin-bottom: 100px;
+}
+
+.image-left{
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.image-right{
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
+/*CONTACTUS*/
+
+#contact-us{
+  padding: 30px 0;
+  position: relative;
+  background-color: #fff;
+  color: #111;
+}
+
+#contact-us h1{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/*FOOTER*/
+
+#footer{
+  text-align: center;
+  padding: 50px 15% 30px;
+  background-color: #222;
+  color: #fff;
+}
+
+.footer-icon{
+  padding: 0 10px 20px;
+}
