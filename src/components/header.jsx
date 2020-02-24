@@ -2,7 +2,6 @@ import React from "react";
 import {Navbar, Nav, NavDropdown} from "react-bootstrap";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from "../pages/Home";
-import Documentation from "../pages/Documentation";
 
 
 function Header() {
@@ -20,9 +19,8 @@ function Header() {
                             <NavDropdown.Item href="#action/3.2">Русский</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Polski</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="/documentation">Documentation</Nav.Link>
-                        <Nav.Link href="/about">About us</Nav.Link>
-                        <Nav.Link href="/contacts">Contacts</Nav.Link>
+                        <Nav.Link href="#features">About us</Nav.Link>
+                        <Nav.Link href="#about">Contacts</Nav.Link>
 
                     </Nav>
                 </Navbar.Collapse>
@@ -31,7 +29,6 @@ function Header() {
             <Router>
                 <Switch>
                     <Route exact path='/' component={Home}/>
-                    <Route exact path='/documentation' component={Documentation}/>
                 </Switch>
             </Router>
         </>

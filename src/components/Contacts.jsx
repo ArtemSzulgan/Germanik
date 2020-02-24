@@ -7,23 +7,35 @@ function Contact() {
         <>
             <section id="about">
                 <div>
-                   <Card
-                    class='image-left'
-                    avatar={photo}
-                    name="Lorem Ipsum 1"
-                    tel="+48 600 000 000 Mauris porttitor diam sit amet sapien lobortis sodales. In suscipit tortor quis justo sollicitudin, ut faucibus tortor vestibulum.+48 600 000 000 Mauris porttitor diam sit amet sapien lobortis sodales. In suscipit tortor quis justo sollicitudin, ut faucibus tortor vestibulum. "
-                   />
                     <Card
+                        textClass="contact-card-left"
+                        class='image-left'
+                        avatar={photo}
+                        name="Lorem Ipsum 1"
+                        position="Lorem Ipusm Vazhnym Czyvambum"
+                        tel="     +48 600 000 000"
+                        skype="   xz.germanik"
+                        email="   xz@germanik.pl"
+                    />
+                    <Card
+                        textClass="contact-card-right"
                         class='image-right'
                         avatar={photo}
                         name="Lorem Ipsum 2"
-                        tel="+48 600 000 000 Mauris porttitor diam sit amet sapien lobortis sodales. In suscipit tortor quis justo sollicitudin, ut faucibus tortor vestibulum.+48 600 000 000 Mauris porttitor diam sit amet sapien lobortis sodales. In suscipit tortor quis justo sollicitudin, ut faucibus tortor vestibulum. "
+                        position="Lorem Ipusm Vazhnym Czyvambum"
+                        tel=" +48 600 000 000"
+                        skype=" xz.germanik"
+                        email=" xz@germanik.pl"
                     />
                     <Card
+                        textClass="contact-card-left"
                         class='image-left'
                         avatar={photo}
                         name="Lorem Ipsum 3"
-                        tel="+48 600 000 000 Mauris porttitor diam sit amet sapien lobortis sodales. In suscipit tortor quis justo sollicitudin, ut faucibus tortor vestibulum.+48 600 000 000 Mauris porttitor diam sit amet sapien lobortis sodales. In suscipit tortor quis justo sollicitudin, ut faucibus tortor vestibulum. "
+                        position="Lorem Ipusm Vazhnym Czyvambum"
+                        tel=" +48 600 000 000"
+                        skype=" xz.germanik"
+                        email=" xz@germanik.pl"
                     />
                 </div>
             </section>

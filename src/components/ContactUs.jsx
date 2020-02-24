@@ -3,13 +3,12 @@ import {Form, Button, Container} from "react-bootstrap";
 function ContactUs() {
     return(
         <section id="contact-us">
-            <h1>...OR JUS SEND FOR US EMAIL</h1>
+            <h1>...OR JUST SEND AN EMAIL FOR US</h1>
             <Container>
-                <h3>Contact Us</h3>
                 <Form>
                     <Form.Group controlId="formBasicEmail">
                         <Form.Label>Email Address</Form.Label>
-                        <Form.Control type="email" placeholder="Enter email"/>
+                        <Form.Control type="email" placeholder="Enter your email"/>
                         <Form.Text>We'll never share your email with anyone else</Form.Text>
                     </Form.Group>
                     <Form.Group controlId="exampleForm.Password">
@@ -28,7 +27,7 @@ function ContactUs() {
                         <Form.Label>Your message</Form.Label>
                         <Form.Control as="textarea" rows="5" />
                     </Form.Group>
-                    <Button variant="primary" type="submit">Send</Button>
+                    <Button variant="outline-dark"  type="submit">Send</Button>
                 </Form>
             </Container>
         </section>
