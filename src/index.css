@@ -1,10 +1,9 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat',    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 code {
@@ -15,6 +14,11 @@ code {
 html,body{
   height:100%;
 }
+
+.carousel_container{
+  padding-top: 56px;
+}
+
 .carousel,.item,.active{
   height:100%;
 }
@@ -22,32 +26,32 @@ html,body{
   height:100%;
 }
 
-/* FEATURES */
-#features{
+/* ABOUT */
+#about{
   padding: 150px 0;
   position: relative;
   background-color: #f9fcfb;
 }
 
-.feature-icon{
+.about_icon{
   color: #344;
   font-size: 3.5rem;
   margin-bottom: 20px;
 }
 
-.feature-icon:hover{
+.about_icon:hover{
   color: #111;
 }
 
-.feature-row{
+.about_row{
   font-family: "Montserrat";
   color: #5f6769;
   margin: 150px auto;
 }
 
-/*ABOUT*/
+/*PERSONS*/
 
-#about{
+#persons{
   padding: 30px 0;
   position: relative;
   background-color: #222;
@@ -57,35 +61,35 @@ html,body{
   background-repeat: no-repeat;
 }
 
-#about p{
+#persons p{
   margin-bottom: 10px;
 }
 
-#about h3{
+#persons h3{
   padding-top: 0;
 }
 
-.contact-card-left{
+.persons_card-left{
   width: 860px;
   text-align: left;
   line-height: 2;
   margin: 100px 20px 100px auto;
 }
 
-.contact-card-right{
+.persons_card-right{
   width: 860px;
   text-align: right;
   line-height: 2;
   margin: 100px 20px 100px auto;
 }
 
-.image-left{
+.persons_image-left{
   width: 25%;
   float: left;
   padding-right: 30px;
 }
 
-.image-right{
+.persons_image-right{
   width: 25%;
   float: right;
   padding-left: 30px;
@@ -116,17 +120,25 @@ html,body{
 
 #footer{
   text-align: center;
-  padding: 50px 15% 30px;
+  padding: 50px 15% 5px;
   background-color: #222;
   color: #f9fcfb;
 }
 
-.footer-icon{
-  padding: 0 10px 20px;
+.footer_content{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
 }
 
-/*DOCUMENTATIONS*/
+.footer_text{
+  text-align: left;
+}
 
-.documentations{
- padding: 50px 200px;
+.footer_text_mark{
+  line-height: 35px;
+}
+
+.copyright{
+  margin-bottom: 0;
 }

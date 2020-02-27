@@ -1,10 +1,10 @@
 import React from "react";
-import {Form, Button, Container} from "react-bootstrap";
+import {Form, Button} from "react-bootstrap";
 function ContactUs() {
     return(
         <section id="contact-us">
             <h1>...OR JUST SEND AN EMAIL FOR US</h1>
-            <Container>
+            <div>
                 <Form>
                     <Form.Group controlId="formBasicEmail">
                         <Form.Label>Email Address</Form.Label>
@@ -25,11 +25,11 @@ function ContactUs() {
                     </Form.Group>
                     <Form.Group controlId="exampleForm.ControlTextarea1">
                         <Form.Label>Your message</Form.Label>
-                        <Form.Control as="textarea" rows="5" />
+                        <Form.Control as="textarea" rows="9" />
                     </Form.Group>
                     <Button variant="outline-dark"  type="submit">Send</Button>
                 </Form>
-            </Container>
+            </div>
         </section>
     )
 }
