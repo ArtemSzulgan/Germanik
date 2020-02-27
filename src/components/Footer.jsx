@@ -15,15 +15,11 @@ function Footer() {
                 </div>
                 <div className="footer_map">
                     <Iframe
-                        url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d581.3823148262516!2d23.17348501726014!3d53.134025195252356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ffea75d6b4c51%3A0xc374e6b2f700b830!2sS%C5%82onimska%203%2C%2015-077%20Bia%C5%82ystok!5e0!3m2!1sru!2spl!4v1582825997780!5m2!1sru!2spl"
-                        width="600"
-                        height="180"
-                        frameBorder="0"
-                        allowFullScreen=""
-                    />
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2393.666111292591!2d23.173513!3d53.134139000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ffea75df27d1b%3A0x13907114373aa295!2sPrzedsi%C4%99biorstwo%20Wielobran%C5%BCowe%20Germanik%20W%C5%82odzimierz%20German!5e0!3m2!1sru!2spl!4v1582829051097!5m2!1sru!2spl"
+                        width="600" height="180" frameBorder="0" allowFullScreen=""></Iframe>
                 </div>
             </div>
-            <p className="copyright">© Copyright 2020 Germanik</p>
+            <p className="footer_copyright">© Copyright 2020 Germanik</p>
         </section>
     )
 }

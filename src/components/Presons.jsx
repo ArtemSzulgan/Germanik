@@ -5,7 +5,7 @@ import photo from "../assets/computer.png"
 const persons = [{
         textClass: "persons_card-left",
         class: "persons_image-left",
-        avatar: {photo},
+        avatar: photo,
         name: "Lorem Ipsum 1",
         position: "Lorem Ipusm Vazhnym Czyvambum",
         tel: "     +48 600 000 000",
@@ -15,7 +15,7 @@ const persons = [{
     {
         textClass: "persons_card-right",
         class: "persons_image-right",
-        avatar: {photo},
+        avatar: photo,
         name: "Lorem Ipsum 1",
         position: "Lorem Ipusm Vazhnym Czyvambum",
         tel: "     +48 600 000 000",
@@ -25,7 +25,7 @@ const persons = [{
     {
         textClass: "persons_card-left",
         class: "persons_image-left",
-        avatar: {photo},
+        avatar: photo,
         name: "Lorem Ipsum 1",
         position: "Lorem Ipusm Vazhnym Czyvambum",
         tel: "     +48 600 000 000",
@@ -38,16 +38,7 @@ function Persons() {
         <>
             <section id="persons">
                 {persons.map((person, index) => {
-                    return <Card
-                        textClass={person.textClass}
-                        class={person.class}
-                        avatar={person.avatar}
-                        name={person.name}
-                        position={person.position}
-                        tel={person.tel}
-                        skype={person.skype}
-                        email={person.email}
-                    />
+                    return <Card key={index}{...person}/>
                 })}
             </section>
         </>
