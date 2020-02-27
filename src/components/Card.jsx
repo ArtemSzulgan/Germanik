@@ -1,16 +1,25 @@
 import React from "react";
 
-function Card(props) {
-    return(
-        <div className={props.textClass}>
-            <img src={props.avatar} className={props.class} alt="Avatar"/>
-            <h3>{props.name}</h3>
-            <h5>{props.position}</h5>
-            <p><i className="fas fa-phone"></i>{props.tel}</p>
-            <p><i className="fas fa-envelope"></i>{props.email}</p>
-            <p><i className="fab fa-skype"></i>{props.skype}</p>
-        </div>
-    )
+function Card({
+                textClass,
+                avatar,
+                className,
+                name,
+                position,
+                tel,
+                email,
+                skype
+              }) {
+  return (
+    <div className={textClass}>
+      <img src={avatar} className={className} alt="Avatar"/>
+      <h3>{name}</h3>
+      <h5>{position}</h5>
+      <p><i className="fas fa-phone"></i>{tel}</p>
+      <p><i className="fas fa-envelope"></i>{email}</p>
+      <p><i className="fab fa-skype"></i>{skype}</p>
+    </div>
+  );
 }
 
 export default Card;

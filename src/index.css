@@ -65,20 +65,6 @@ html,body{
   padding-top: 0;
 }
 
-.contact-card-left{
-  width: 860px;
-  text-align: left;
-  line-height: 2;
-  margin: 100px 20px 100px auto;
-}
-
-.contact-card-right{
-  width: 860px;
-  text-align: right;
-  line-height: 2;
-  margin: 100px 20px 100px auto;
-}
-
 .image-left{
   width: 25%;
   float: left;
