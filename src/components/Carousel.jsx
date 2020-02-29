@@ -1,4 +1,5 @@
 import React from "react";
+import "./Style/Carousel.scss"
 import Carousel from "react-bootstrap/Carousel";
 import photo1 from '../assets/photo11.jpg'
 import photo2 from '../assets/photo2.jpg'
@@ -29,14 +30,14 @@ function PhotoCarousel() {
             <Carousel>
                 {
                     images.map((item, i)=>{
-                        return <Carousel.Item>
+                        return <Carousel.Item className="max-vh-100 wd-100">
                             <img
                                 src={item.photo}
                                 alt="img"
                                 className='d-block w-100'
                             />
                             <Carousel.Caption>
-                                <img src={logo} alt="logo" height='250'/>
+                                <img src={logo} alt="logo" className="carousel_logo"/>
                                 <h3>{item.header}</h3>
                                 <p>{item.body}</p>
                             </Carousel.Caption>
@@ -47,6 +48,5 @@ function PhotoCarousel() {
         </div>
     )
 }
-
 
 export default PhotoCarousel;

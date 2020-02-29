@@ -1,0 +1,40 @@
+#footer{
+  text-align: center;
+  padding: 50px 15% 5px;
+  background-color: #222;
+  color: #f9fcfb;
+
+  i{
+    padding-right: 15px;
+  }
+
+  Iframe{
+    width:600px;
+    height: 100%;
+  }
+}
+
+.footer_content{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.footer_text{
+  text-align: left;
+}
+
+.footer_text_mark{
+  line-height: 35px;
+}
+
+.footer_copyright{
+  margin-bottom: 0;
+}
+
+.footer_text_title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: larger;
+  line-height: 35px;
+}

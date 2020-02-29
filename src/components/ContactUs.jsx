@@ -1,5 +1,7 @@
 import React from "react";
 import {Form, Button} from "react-bootstrap";
+import "./Style/ContactUs.scss"
+
 function ContactUs() {
     return(
         <section id="contact-us">
