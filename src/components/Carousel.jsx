@@ -1,26 +1,27 @@
 import React from "react";
-import "./Style/Carousel.scss"
+import "./Style/Carousel.scss";
 import Carousel from "react-bootstrap/Carousel";
-import photo1 from '../assets/photo11.jpg'
-import photo2 from '../assets/photo2.jpg'
-import photo3 from '../assets/photo3.jpg'
-import logo from '../logo.jpg'
+import { FormattedMessage} from "react-intl";
+import photo1 from '../assets/photo11.jpg';
+import photo2 from '../assets/photo2.jpg';
+import photo3 from '../assets/photo3.jpg';
+import logo from '../logo.jpg';
 
 const images=[
     {
         photo: photo1,
-        header: 'Lorem',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        header: <FormattedMessage id="carousel.title" defaultMessage="Lorem"/>,
+        body: <FormattedMessage id="carousel.content" defaultMessage="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
     },
     {
         photo: photo2,
-        header: 'Lorem',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        header: <FormattedMessage id="carousel.title" defaultMessage="Lorem"/>,
+        body: <FormattedMessage id="carousel.content" defaultMessage="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
     },
     {
         photo: photo3,
-        header: 'Lorem',
-        body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        header: <FormattedMessage id="carousel.title" defaultMessage="Lorem"/>,
+        body: <FormattedMessage id="carousel.content" defaultMessage="Lorem ipsum dolor sit amet, consectetur adipiscing elit."/>
     },
 ];
 
@@ -30,7 +31,7 @@ function PhotoCarousel() {
             <Carousel>
                 {
                     images.map((item, i)=>{
-                        return <Carousel.Item className="max-vh-100 wd-100">
+                        return <Carousel.Item className="max-vh-100 wd-100" key={i}>
                             <img
                                 src={item.photo}
                                 alt="img"
