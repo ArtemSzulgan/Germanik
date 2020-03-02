@@ -15,24 +15,22 @@ let lang;
     }
 
 const Wrapper = (props) => {
-        const [locale, setLocale] = useState(local);
-        const [content, setContent] = useState(lang);
+        const [locale, setLocale] = useState(navigator.language);
+        const [messages, setMessages] = useState(lang);
 
         function selectLang(e) {
             const newLocale = e.target.value;
             setLocale(newLocale);
-            if (newLocale === "ru-Ru") {
-                setContent(Russian);
-                console.log(locale)
+            if (newLocale === "ru-RU") {
+                setMessages(Russian);
             } else {
-                setContent(English);
-                console.log(locale)
+                setMessages(English);
             }
         }
 
     return(
         <Context.Provider value={{locale, selectLang }}>
-            <IntlProvider messages={content} locale={locale}>
+            <IntlProvider messages={messages} locale={locale}>
                 {props.children}
             </IntlProvider>
         </Context.Provider>

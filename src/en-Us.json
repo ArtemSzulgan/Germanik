@@ -1,4 +1,14 @@
 {
   "carousel.title": "Hello",
-  "carousel.content": "Hello world"
+  "carousel.content": "Hello world",
+  "about.titleTruck": "Easy to use.",
+  "about.contentTruck": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper nec nunc pellentesque ultrices. Praesent pretium at justo sit amet faucibus. Maecenas sagittis, sapien ut dapibus posuere, dui ipsum maximus lectus, id faucibus augue nibh vehicula arcu.",
+  "about.titleCargo": "Elite Client",
+  "about.contentCargo": "onec neque eros, blandit ut vehicula in, vehicula quis dui. Nulla aliquam nisl eu metus semper, in gravida tellus placerat. Pellentesque lacinia felis auctor, dapibus lectus at, hendrerit massa.",
+  "about.titleTemp": "Guaranteed to work.",
+  "about.contentTemp": "Nam lobortis, magna eget varius pulvinar, nulla leo sodales ipsum, quis ultricies leo libero et sapien. Nunc fermentum feugiat diam, eu molestie sem maximus non. Sed aliquet eros et justo ultrices cursus. Morbi tristique orci sit amet erat mattis, in feugiat ipsum aliquam.",
+  "persons.positionWest": "Lorem Ipusm Vazhnym Czyvambum West",
+  "persons.positionEast": "Lorem Ipusm Vazhnym Czyvambum East",
+  "persons.positionAccounting": "Lorem Ipusm Vazhnym Czyvambum Money"
+
 }

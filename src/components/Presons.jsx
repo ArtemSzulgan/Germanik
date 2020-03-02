@@ -2,13 +2,14 @@ import React from "react";
 import Card from "./Card";
 import photo from "../assets/computer.png"
 import "./Style/Persons.scss"
+import { injectIntl, FormattedMessage} from "react-intl";
 
 const persons = [{
         textClass: "persons_card-left",
         className: "persons_image-left",
         avatar: photo,
         name: "Lorem Ipsum 1",
-        position: "Lorem Ipusm Vazhnym Czyvambum",
+        position: <FormattedMessage id="persons.positionWest" defaultMessage=""/>,
         tel: "+48 600 000 000",
         skype: "xz.germanik",
         email: "xz@germanik.pl"
@@ -18,7 +19,7 @@ const persons = [{
         className: "persons_image-right",
         avatar: photo,
         name: "Lorem Ipsum 1",
-        position: "Lorem Ipusm Vazhnym Czyvambum",
+        position: <FormattedMessage id="persons.positionEast" defaultMessage=""/>,
         tel: "+48 600 000 000",
         skype: "xz.germanik",
         email: "xz@germanik.pl"
@@ -28,7 +29,7 @@ const persons = [{
         className: "persons_image-left",
         avatar: photo,
         name: "Lorem Ipsum 1",
-        position: "Lorem Ipusm Vazhnym Czyvambum",
+        position: <FormattedMessage id="persons.positionAccounting" defaultMessage=""/>,
         tel: "+48 600 000 000",
         skype: "xz.germanik",
         email: "xz@germanik.pl"
