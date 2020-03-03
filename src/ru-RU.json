@@ -1,13 +1,32 @@
 {
   "carousel.title": "Салют",
   "carousel.content": "Едем медленно. Иногда не довозим. Зато дорого",
+
   "about.titleTruck": "Легонько юзать",
   "about.contentTruck": "1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper nec nunc pellentesque ultrices. Praesent pretium at justo sit amet faucibus. Maecenas sagittis, sapien ut dapibus posuere, dui ipsum maximus lectus, id faucibus augue nibh vehicula arcu.",
   "about.titleCargo": "Элитные клиентосы",
   "about.contentCargo": "1onec neque eros, blandit ut vehicula in, vehicula quis dui. Nulla aliquam nisl eu metus semper, in gravida tellus placerat. Pellentesque lacinia felis auctor, dapibus lectus at, hendrerit massa.",
   "about.titleTemp": "Точно работает",
   "about.contentTemp": "1Nam lobortis, magna eget varius pulvinar, nulla leo sodales ipsum, quis ultricies leo libero et sapien. Nunc fermentum feugiat diam, eu molestie sem maximus non. Sed aliquet eros et justo ultrices cursus. Morbi tristique orci sit amet erat mattis, in feugiat ipsum aliquam.",
+
   "persons.positionWest": "Lorem Ipusm Vazhnym Czyvambum Вест",
   "persons.positionEast": "Lorem Ipusm Vazhnym Czyvambum Ист",
-  "persons.positionAccounting": "Lorem Ipusm Vazhnym Czyvambum Мони"
+  "persons.positionAccounting": "Lorem Ipusm Vazhnym Czyvambum Мони",
+
+  "contactUs.title": "...ИЛИ ВЫШЛИТЕ НАМ МЕЙЛ",
+  "contactUs.email": "Имейл адресс",
+  "contactUs.emailPlaceholder": "Введите ваш мейл",
+  "contactUs.emailWarning": "Мы не поделимся вашим имейлом со стононней личностью",
+  "contactUs.name": "Ваше Имя",
+  "contactUs.namePlaceholder": "Введите ваше имя",
+  "contactUs.theme": "Выберите тему",
+  "contactUs.themeFirst": "Просчет грузоперевозки",
+  "contactUs.themeSecond": "Партнерство",
+  "contactUs.themeThird": "Поиск работы",
+  "contactUs.messages": "Ваше сообщение",
+  "contactUs.button": "Выслать",
+
+  "footer.title": "Многоотраслевое предприятие Germanik Wlodzimierz German",
+  "footer.content": "Международные перевозки грузов. Складирование грузов. Перевозки грузов в контролируемой температуре. Перевозка опасных грузов",
+  "footer.copyright": "© всэ права зачичены 2020 Germanik"
 }

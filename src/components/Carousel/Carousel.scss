@@ -1,0 +1,26 @@
+.carousel {
+  height: 100%;
+
+  &_container {
+    padding-top: 56px;
+  }
+
+  &l_background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+
+  &_logo {
+    height: 250px;
+  }
+
+
+  &-inner {
+    height: 100%;
+  }
+}
+
+.item, .active {
+  height: 100%;
+}

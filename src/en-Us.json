@@ -1,14 +1,32 @@
 {
   "carousel.title": "Hello",
   "carousel.content": "Hello world",
+
   "about.titleTruck": "Easy to use.",
   "about.contentTruck": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper nec nunc pellentesque ultrices. Praesent pretium at justo sit amet faucibus. Maecenas sagittis, sapien ut dapibus posuere, dui ipsum maximus lectus, id faucibus augue nibh vehicula arcu.",
   "about.titleCargo": "Elite Client",
   "about.contentCargo": "onec neque eros, blandit ut vehicula in, vehicula quis dui. Nulla aliquam nisl eu metus semper, in gravida tellus placerat. Pellentesque lacinia felis auctor, dapibus lectus at, hendrerit massa.",
   "about.titleTemp": "Guaranteed to work.",
   "about.contentTemp": "Nam lobortis, magna eget varius pulvinar, nulla leo sodales ipsum, quis ultricies leo libero et sapien. Nunc fermentum feugiat diam, eu molestie sem maximus non. Sed aliquet eros et justo ultrices cursus. Morbi tristique orci sit amet erat mattis, in feugiat ipsum aliquam.",
+
   "persons.positionWest": "Lorem Ipusm Vazhnym Czyvambum West",
   "persons.positionEast": "Lorem Ipusm Vazhnym Czyvambum East",
-  "persons.positionAccounting": "Lorem Ipusm Vazhnym Czyvambum Money"
+  "persons.positionAccounting": "Lorem Ipusm Vazhnym Czyvambum Money",
 
+  "contactUs.title": "...OR JUST SEND AN EMAIL FOR US",
+  "contactUs.email": "Email Address",
+  "contactUs.emailPlaceholder": "Enter your email",
+  "contactUs.emailWarning": "We'll never share your email with anyone else",
+  "contactUs.name": "Your name",
+  "contactUs.namePlaceholder": "Enter your name",
+  "contactUs.theme": "Chose theme",
+  "contactUs.themeFirst": "Calculate shipment",
+  "contactUs.themeSecond": "Partnership",
+  "contactUs.themeThird": "Looking for a work",
+  "contactUs.messages": "Your message",
+  "contactUs.button": "Send",
+
+  "footer.title": "PW GERMANIK WLODZIMIERZ GERMAN",
+  "footer.content": "Doing something.Make some things move.Make some thing move in temperuture. Make some things move in controlled temperature",
+  "footer.copyright": "© Copyright 2020 Germanik"
 }
