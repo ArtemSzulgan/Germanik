@@ -7,22 +7,22 @@ import photo2 from '../../assets/photo2.jpg';
 import photo3 from '../../assets/photo3.jpg';
 import logo from '../../logo.jpg';
 
-const images=[
+const images = [
   {
     photo: photo1,
     header: <FormattedMessage id="carousel.title" defaultMessage="Lorem"/>,
-    body: <FormattedMessage id="carousel.content" defaultMessage="Lorem"/>,
+    body: <FormattedMessage id="carousel.content" defaultMessage="Lorem"/>
   },
   {
     photo: photo2,
     header: <FormattedMessage id="carousel.title" defaultMessage="Lorem"/>,
-    body: <FormattedMessage id="carousel.content" defaultMessage="Lorem"/>,
+    body: <FormattedMessage id="carousel.content" defaultMessage="Lorem"/>
   },
   {
     photo: photo3,
     header: <FormattedMessage id="carousel.title" defaultMessage="Lorem"/>,
-    body: <FormattedMessage id="carousel.content" defaultMessage="Lorem"/>,
-  },
+    body: <FormattedMessage id="carousel.content" defaultMessage="Lorem"/>
+  }
 ];
 
 function PhotoCarousel() {
@@ -46,6 +46,7 @@ function PhotoCarousel() {
           })
         }
       </Carousel>
+      <img src={logo} alt="logo" className="carousel_mobile_logo"/>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-#persons {
+.persons {
   padding: 30px 0;
   position: relative;
   background-color: #222;
@@ -6,6 +6,10 @@
   background-image: url("../../assets/call.jpg");
   background-size: contain;
   background-repeat: no-repeat;
+
+  @media only screen and (max-width: 860px) {
+    background-image: none;
+  }
 
   p {
     margin-bottom: 10px;
@@ -25,6 +29,13 @@
     text-align: left;
     line-height: 2;
     margin: 100px 20px 100px auto;
+
+    @media only screen and (max-width: 860px) {
+      width: 100%;
+      padding-left: 30px;
+      margin: 15px 20px 15px auto;
+    }
+
   }
 
   &_card-right {
@@ -32,17 +43,32 @@
     text-align: right;
     line-height: 2;
     margin: 100px 20px 100px auto;
+
+
+    @media only screen and (max-width: 860px) {
+      width: 100%;
+      padding-right: 30px;
+      margin: 15px 20px 15px auto;
+    }
   }
 
   &_image-left {
     width: 25%;
     float: left;
     padding-right: 30px;
+
+    @media only screen and (max-width: 860px) {
+      display: none;
+    }
   }
 
   &_image-right {
     width: 25%;
     float: right;
     padding-left: 30px;
+
+    @media only screen and (max-width: 860px) {
+      display: none;
+    }
   }
 }

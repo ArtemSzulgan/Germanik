@@ -9,12 +9,23 @@
   Form {
     margin: auto;
     width: 760px;
+
+
+    @media only screen and (max-width: 860px) {
+      width: 100%;
+      padding: 0 15px;
+    }
+
   }
 
   h1 {
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
+
+    @media only screen and (max-width: 860px) {
+      padding: 0 30px;
+    }
   }
 
 }

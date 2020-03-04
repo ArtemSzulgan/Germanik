@@ -38,7 +38,7 @@ const persons = [{
 function Persons() {
   return (
     <>
-      <section id="persons">
+      <section id="persons" className="persons">
         {persons.map((person, index) => {
           return <Card key={index}{...person}/>;
         })}

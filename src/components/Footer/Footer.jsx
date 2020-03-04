@@ -5,7 +5,7 @@ import './Footer.scss';
 
 function Footer() {
   return (
-    <section id="footer">
+    <section id="footer" className="footer">
       <div className="footer_content">
         <div className="footer_text">
           <div className="footer_text_title">

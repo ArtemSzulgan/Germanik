@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/header';
+import Header from './components/Header/Header';
 import PhotoCarousel from './components/Carousel/Carousel';
 import About from './components/About/About';
 import Contacts from './components/Persons/Presons';

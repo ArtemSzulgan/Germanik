@@ -8,10 +8,11 @@ export const Context = React.createContext();
 const local = navigator.language;
 
 let lang;
-if (local === 'ru-RU') {
-  lang = Russian;
-} else {
+
+if (local !== 'ru-RU') {
   lang = English;
+} else {
+  lang = Russian;
 }
 
 const Wrapper = (props) => {
@@ -20,6 +21,7 @@ const Wrapper = (props) => {
 
   function selectLang(e) {
     const newLocale = e.target.value;
+
     setLocale(newLocale);
     if (newLocale === 'ru-RU') {
       setMessages(Russian);
@@ -36,6 +38,5 @@ const Wrapper = (props) => {
     </Context.Provider>
   );
 };
-
 
 export default Wrapper;
