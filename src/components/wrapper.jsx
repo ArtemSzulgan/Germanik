@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import {IntlProvider} from 'react-intl';
-import English from '../en-Us.json';
-import Russian from '../ru-RU.json';
+import English from '../assets/en_US.json';
+import Russian from '../assets/ru_RU.json';
+import Poland from '../assets/pl_PL.json';
 
 export const Context = React.createContext();
 
@@ -9,10 +10,12 @@ const local = navigator.language;
 
 let lang;
 
-if (local !== 'ru-RU') {
-  lang = English;
-} else {
+if (local === 'ru-RU') {
   lang = Russian;
+} if (local === 'pl-Pl') {
+  lang = Poland;
+} if (local === 'en-US') {
+  lang = English;
 }
 
 const Wrapper = (props) => {
@@ -25,7 +28,9 @@ const Wrapper = (props) => {
     setLocale(newLocale);
     if (newLocale === 'ru-RU') {
       setMessages(Russian);
-    } else {
+    } if (newLocale === 'pl-PL') {
+      setMessages(Poland);
+    } if (newLocale === 'en-US') {
       setMessages(English);
     }
   }

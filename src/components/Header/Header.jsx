@@ -16,10 +16,13 @@ function Header() {
           </Nav>
           <Nav>
 
-            <select className="form-control bg-dark header_select" value={context.locale} onChange={context.selectLang}>
-              <option className="header_option" value="en-Us">English</option>
-              <option value="ru-RU">Russian</option>
+            <select className="header_select" value={context.locale} onChange={context.selectLang}>
+              <option value="en-US">English</option>
+              <option value="ru-RU">Русский</option>
+              <option value="pl-PL">Polski</option>
+
             </select>
+
 
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#persons">Contacts</Nav.Link>
