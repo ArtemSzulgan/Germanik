@@ -1,6 +1,7 @@
 import React, {useContext} from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
 import {Context} from '../Wrapper/Wrapper';
+import {FormattedMessage} from 'react-intl';
 import './header.scss';
 
 function Header() {
@@ -28,8 +29,16 @@ function Header() {
 
           </select>
 
-          <Nav.Link href="#about">About</Nav.Link>
-          <Nav.Link href="#persons">Contacts</Nav.Link>
+          <Nav.Link href="#about">
+            <FormattedMessage
+              id="header.about"
+              defaultMessage="About"/>
+          </Nav.Link>
+          <Nav.Link href="#persons">
+            <FormattedMessage
+              id="header.contact"
+              defaultMessage="Contact"/>
+          </Nav.Link>
 
         </Nav>
       </Navbar.Collapse>

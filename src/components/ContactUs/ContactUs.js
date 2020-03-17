@@ -18,6 +18,11 @@ function ContactUs() {
     const newData = e.target.value;
 
     setEmail(newData);
+    if (newData !== '') {
+      setTimeout(function () {
+        document.getElementById('email').classList.remove('is-invalid');
+      }, 500);
+    }
   }
 
   function handleChangeName(e) {
@@ -30,6 +35,11 @@ function ContactUs() {
     const newData = e.target.value;
 
     setMessage(newData);
+    if (newData !== '') {
+      setTimeout(function () {
+        document.getElementById('message').classList.remove('is-invalid');
+      }, 500);
+    }
   }
 
   function handleChangeTheme(e) {
@@ -39,36 +49,40 @@ function ContactUs() {
   }
 
   function handleSubmit(e) {
-    const submitData = {
-      email,
-      name,
-      theme,
-      message
-    };
-
     e.preventDefault();
+    if (email !== '' && message !== '') {
+      const submitData = {
+        email,
+        name,
+        theme,
+        message
+      };
 
-    Axios.post(
-      getFormUrl,
-      submitData
-    )
-      .then(function (res) {
-        console.log(res);
-      })
-      .catch(function (err) {
-        console.log(err);
-      });
+      Axios.post(
+        getFormUrl,
+        submitData
+      )
+        .then(function (res) {
+          console.log(res);
+        })
+        .catch(function (err) {
+          console.log(err);
+        });
 
-    setMessage('');
-    setEmail('');
-    setName('');
-    setTheme('');
+      setMessage('');
+      setEmail('');
+      setName('');
+      setTheme('');
 
-    setStyle(true);
+      setStyle(true);
 
-    setTimeout(function () {
-      setStyle(false);
-    }, 3000);
+      document.getElementById('email').classList.add('is-invalid');
+      document.getElementById('message').classList.add('is-invalid');
+
+      setTimeout(function () {
+        setStyle(false);
+      }, 3000);
+    }
   }
 
   return (
@@ -78,7 +92,7 @@ function ContactUs() {
         { style && <p className='contact-us_sentConf' ><FormattedMessage id="contactUs.sent"
           defaultMessage="Your mail was sent"/></p>}
         <Form name='contact' onSubmit={handleSubmit}>
-          <Form.Group controlId="formBasicEmail">
+          <Form.Group>
             <Form.Label>
 
               <FormattedMessage
@@ -88,6 +102,7 @@ function ContactUs() {
             </Form.Label>
             <Form.Control type="email"
               id="email"
+              className="is-invalid"
               value={email}
               onChange={handleChangeEmail}
               placeholder={intl.formatMessage({
@@ -102,7 +117,7 @@ function ContactUs() {
 
             </Form.Text>
           </Form.Group>
-          <Form.Group controlId="exampleForm.Password">
+          <Form.Group>
             <Form.Label>
 
               <FormattedMessage
@@ -120,7 +135,7 @@ function ContactUs() {
                 defaultMessage: 'Enter your name'
               })}/>
           </Form.Group>
-          <Form.Group controlId="exampleForm.ControlSelect1">
+          <Form.Group>
             <Form.Label><FormattedMessage id="contactUs.theme"
               defaultMessage="Chose theme"/></Form.Label>
             <Form.Control as="select" value={theme} onChange={handleChangeTheme}>
@@ -138,7 +153,7 @@ function ContactUs() {
                 tagName="option"/>
             </Form.Control>
           </Form.Group>
-          <Form.Group controlId="exampleForm.ControlTextarea1">
+          <Form.Group>
             <Form.Label>
 
               <FormattedMessage
@@ -146,7 +161,14 @@ function ContactUs() {
                 defaultMessage="Your message"/>
 
             </Form.Label>
-            <Form.Control as="textarea" value={message} onChange={handleChangeMsg} name="text" rows="9"/>
+            <Form.Control
+              as="textarea"
+              id='message'
+              className="is-invalid"
+              value={message}
+              onChange={handleChangeMsg}
+              name="text"
+              rows="9"/>
           </Form.Group>
           <Button variant="outline-dark" type="submit">
 
