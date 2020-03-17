@@ -6,7 +6,6 @@
   }
 
   &_container {
-    padding-top: 56px;
 
     @media only screen and (max-width: 860px) {
       display: flex;
@@ -14,7 +13,11 @@
       background-color: #101010;
       color: #f9fcfb;
     }
+  }
 
+  &_slogan{
+    font-size: 1.5rem;
+    letter-spacing: 5px;
   }
 
   &_background {
@@ -46,3 +49,4 @@
 .item, .active {
   height: 100%;
 }
+

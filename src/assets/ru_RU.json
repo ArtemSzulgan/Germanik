@@ -1,17 +1,16 @@
 {
-  "carousel.title": "Салют",
-  "carousel.content": "Едем медленно. Иногда не довозим. Зато дорого",
+  "carousel.content": "искусство перевозок",
 
-  "about.titleTruck": "Легонько юзать",
-  "about.contentTruck": "1Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper nec nunc pellentesque ultrices. Praesent pretium at justo sit amet faucibus. Maecenas sagittis, sapien ut dapibus posuere, dui ipsum maximus lectus, id faucibus augue nibh vehicula arcu.",
-  "about.titleCargo": "Элитные клиентосы",
-  "about.contentCargo": "1onec neque eros, blandit ut vehicula in, vehicula quis dui. Nulla aliquam nisl eu metus semper, in gravida tellus placerat. Pellentesque lacinia felis auctor, dapibus lectus at, hendrerit massa.",
-  "about.titleTemp": "Точно работает",
-  "about.contentTemp": "1Nam lobortis, magna eget varius pulvinar, nulla leo sodales ipsum, quis ultricies leo libero et sapien. Nunc fermentum feugiat diam, eu molestie sem maximus non. Sed aliquet eros et justo ultrices cursus. Morbi tristique orci sit amet erat mattis, in feugiat ipsum aliquam.",
+  "about.titleTruck": "Современный автопарк",
+  "about.contentTruck": "Компания специализируется на грузовых перевозках по странам Европы, Беларусии и России. Наш автопарк состоит из рефрижераторных автомобилей грузоподъемностью от одной тонны до трех тонн. Все автомобоили соотвествуют экологическим стандартам EURO 5 и EURO 6, укомплектованны средствами связи и спутниковым навигационным оборудованием.",
+  "about.titleCargo": "Бережная логистика",
+  "about.contentCargo": "В распоряжении компании имеется перегрузочный склад под Варшавой, Польша. Многолетний опыт сотрудников склада является гарантией надежного и безопастного складирования вашего груза, а отлаженная система логистики на складе, позволит вам не треять лишнее время во время выгрузки и погрузки.",
+  "about.titleTemp": "Всегда идеально точно",
+  "about.contentTemp": "Постоянный водительский состав, проходящий периодическое обучение вместе с современным оборудованием рефрежираторных установок, гарантирует соблюдения условий транспортировки вашего груза. Каждая машина оснащена термописцами для того, что бы вы могли контролировать сохранность груза на протяжении всего пути",
 
-  "persons.positionWest": "Lorem Ipusm Vazhnym Czyvambum Вест",
-  "persons.positionEast": "Lorem Ipusm Vazhnym Czyvambum Ист",
-  "persons.positionAccounting": "Lorem Ipusm Vazhnym Czyvambum Мони",
+  "persons.positionWest": "Начальник отдела по восточному направлению",
+  "persons.positionEast": "Начальник отдела по западному направлению",
+  "persons.positionAccounting": "Начальник бухгалтерии",
 
   "contactUs.title": "...ИЛИ ВЫШЛИТЕ НАМ МЕЙЛ",
   "contactUs.sent": "Ваш запрос был выслан",

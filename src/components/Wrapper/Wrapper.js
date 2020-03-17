@@ -12,7 +12,7 @@ let lang;
 
 if (local === 'ru-RU') {
   lang = Russian;
-} if (local === 'pl-Pl') {
+} if (local === 'pl-PL') {
   lang = Poland;
 } if (local === 'en-US') {
   lang = English;

@@ -15,16 +15,15 @@ function PhotoCarousel() {
       <Carousel>
         {
           images.map((item, i)=>{
-            return <Carousel.Item className="max-vh-100 wd-100" key={i}>
+            return <Carousel.Item className="vh-100 wd-100" key={i}>
               <img
                 src={item}
                 alt="img"
-                className='d-block w-100'
+                className='d-block w-100 vh-100'
               />
               <Carousel.Caption>
                 <img src={logo} alt="logo" className="carousel_logo"/>
-                <h3><FormattedMessage id="carousel.title" defaultMessage="Lorem"/></h3>
-                <p><FormattedMessage id="carousel.content" defaultMessage="Lorem"/></p>
+                <p className="carousel_slogan"><FormattedMessage id="carousel.content" defaultMessage="Lorem"/></p>
               </Carousel.Caption>
             </Carousel.Item>;
           })
