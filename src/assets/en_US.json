@@ -5,15 +5,14 @@
   "carousel.content": "art of carriage",
 
   "about.titleTruck": "Modern car fleet",
-  "about.contentTruck": "The company specializes in freight transportation in Europe, Belarus and Russia. Our fleet consists from refrigerated trucks with a lifting capacity up to three tons.All vehicles comply with environmental standards EURO 5 and EURO 6, equipped with communications equipment and satellite navigation.",
+  "about.contentTruck": "Company specializes in freight transportation in Europe, Belarus and Russia. Our fleet consists from refrigerated trucks with a lifting capacity up to three tons.All vehicles comply with environmental standards EURO 6, equipped with communications equipment and satellite navigation.",
   "about.titleCargo": "Careful logistics",
-  "about.contentCargo": "The company has a warehouse near Warsaw, Poland.",
-  "about.titleTemp": "Guaranteed to work.",
-  "about.contentTemp": "Nam lobortis, magna eget varius pulvinar, nulla leo sodales ipsum, quis ultricies leo libero et sapien. Nunc fermentum feugiat diam, eu molestie sem maximus non. Sed aliquet eros et justo ultrices cursus. Morbi tristique orci sit amet erat mattis, in feugiat ipsum aliquam.",
+  "about.contentCargo": "The company has a warehouse near Warsaw, Poland.Long-term experience of warehouse employees is a guarantee of reliable and safe storage of your cargo, and a streamlined logistics system in the warehouse allows you not to waste extra time during unloading and loading.",
+  "about.titleTemp": "Always perfect",
+  "about.contentTemp": "A permanent driver’s staff, undergoing periodic training along with modern equipment of refrigeration units, ensures compliance with the conditions of transportation your cargo.Each machine is equipped with thermal recorders so that you can control the safety of the cargo throughout the transportation.",
 
-  "persons.positionWest": "Lorem Ipusm Vazhnym Czyvambum West",
-  "persons.positionEast": "Lorem Ipusm Vazhnym Czyvambum East",
-  "persons.positionAccounting": "Lorem Ipusm Vazhnym Czyvambum Money",
+  "persons.positionWest": "Head of East Department",
+  "persons.positionEast": "Head of Western Department",
 
   "contactUs.title": "...OR JUST SEND AN EMAIL FOR US",
   "contactUs.sent": "Your mail was sent",
@@ -29,7 +28,7 @@
   "contactUs.messages": "Your message",
   "contactUs.button": "Send",
 
-  "footer.title": "PW GERMANIK WLODZIMIERZ GERMAN",
-  "footer.content": "Doing something.Make some things move.Make some thing move in temperuture. Make some things move in controlled temperature",
+  "footer.title": "A multi-branch company Germanik Wlodzimierz German",
+  "footer.content": "International transportation of goods. Warehousing. Transportation of goods at a controlled temperature. Dangerous goods transportation",
   "footer.copyright": "© Copyright 2020 Germanik"
 }

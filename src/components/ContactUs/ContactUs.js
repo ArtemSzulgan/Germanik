@@ -22,6 +22,10 @@ function ContactUs() {
       setTimeout(function () {
         document.getElementById('email').classList.remove('is-invalid');
       }, 500);
+    } if (newData === '') {
+      setTimeout(function () {
+        document.getElementById('email').classList.add('is-invalid');
+      }, 500);
     }
   }
 
@@ -38,6 +42,10 @@ function ContactUs() {
     if (newData !== '') {
       setTimeout(function () {
         document.getElementById('message').classList.remove('is-invalid');
+      }, 500);
+    } if (newData === '') {
+      setTimeout(function () {
+        document.getElementById('message').classList.add('is-invalid');
       }, 500);
     }
   }

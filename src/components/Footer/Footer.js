@@ -4,32 +4,34 @@ import {FormattedMessage} from 'react-intl';
 import './footer.scss';
 
 function Footer() {
+  const contentDefMsg = 'International transportation of goods. Warehousing. Transportation of goods at a controlled temperature. Dangerous goods transportation';
+
   return (
     <section id="footer" className="footer">
       <div className="footer_content">
         <div className="footer_text">
           <div className="footer_text_title">
             <FormattedMessage id="footer.title"
-              defaultMessage="PW GERMANIK WLODZIMIERZ GERMAN"
+              defaultMessage="A multi-branch company Germanik Wlodzimierz German"
             />
           </div>
           <div className="footer_text_content">
             <FormattedMessage
               id="footer.content"
-              defaultMessage="Doing something."
+              defaultMessage={contentDefMsg}
             />
           </div>
           <div className="footer_text_mark">
             <i className="fas fa-phone"></i>
-              +48 600 000 000
+            +48 600 000 000
           </div>
           <div className="footer_text_mark">
             <i className="fas fa-envelope"></i>
-              germanik@germanik.pl
+            germanik@germanik.pl
           </div>
           <div className="footer_text_mark">
             <i className="fas fa-map-marker-alt"></i>
-              Słonimska 3/9, 15-028 Białystok
+            Słonimska 3/9, 15-028 Białystok
           </div>
         </div>
         <div className="footer_map">

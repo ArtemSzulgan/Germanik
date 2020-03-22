@@ -12,7 +12,7 @@ const images = [photo1, photo2, photo3];
 function PhotoCarousel() {
   return (
     <div className="carousel_container">
-      <Carousel>
+      <Carousel controls={false} pauseOnHover={false} indicators={false}>
         {
           images.map((item, i)=>{
             return <Carousel.Item className="vh-100 wd-100" key={i}>
@@ -23,7 +23,7 @@ function PhotoCarousel() {
               />
               <Carousel.Caption>
                 <img src={logo} alt="logo" className="carousel_logo"/>
-                <p className="carousel_slogan"><FormattedMessage id="carousel.content" defaultMessage="Lorem"/></p>
+                <p className="carousel_slogan"><FormattedMessage id="carousel.content" defaultMessage="art of carriage"/></p>
               </Carousel.Caption>
             </Carousel.Item>;
           })

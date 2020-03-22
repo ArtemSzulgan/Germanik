@@ -9,8 +9,8 @@ const persons = [{
   textClass: 'persons_card-left',
   className: 'persons_image-left',
   avatar: europe,
-  name: 'Lorem Ipsum 1',
-  position: <FormattedMessage id="persons.positionWest" defaultMessage=""/>,
+  name: 'Katarzyna Mosiej',
+  position: <FormattedMessage id="persons.positionWest" defaultMessage="Head of East Department"/>,
   tel: '+48 600 000 000',
   skype: 'xz.germanik',
   email: 'xz@germanik.pl'
@@ -19,8 +19,8 @@ const persons = [{
   textClass: 'persons_card-right',
   className: 'persons_image-right',
   avatar: russia,
-  name: 'Lorem Ipsum 1',
-  position: <FormattedMessage id="persons.positionEast" defaultMessage=""/>,
+  name: 'Natalia Molchanova',
+  position: <FormattedMessage id="persons.positionEast" defaultMessage="Head of Western Department"/>,
   tel: '+48 600 000 000',
   skype: 'xz.germanik',
   email: 'xz@germanik.pl'
